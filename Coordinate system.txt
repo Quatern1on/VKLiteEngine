@@ -1,0 +1,16 @@
+Main coordinate system:
+ - left-handed
+ - x points right, y points up and z points away from viewer
+ - x-axis is red, y-axis is green, z-axis is blue
+
+NDC coordinate system:
+ - right-handed
+ - x points right, y points down and z points away from viewer
+ - x and y range is [-1, 1], z range is [0, 1]
+
+UV coordinate system:
+ - U points right, V points down
+ - U and V range is [0, 1]
+
+Normal maps are in DirectX format
+Winding order is counter-clockwise
